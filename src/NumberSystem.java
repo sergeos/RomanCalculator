@@ -5,7 +5,7 @@ public class NumberSystem {
     public NumberSystem(String expSample) {
         final String template = "IVX";
         String s = "";
-        Boolean b = false;
+        boolean b = false;
         //проверяем выражение на то, что это число
         for (int i = 0; i < expSample.length(); i++) {
             if (!Character.isDigit(expSample.charAt(i))) {

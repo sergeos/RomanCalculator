@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 public class App {
     public static void main(String[] args) {
@@ -74,7 +75,8 @@ public class App {
                                 }
                                 
                             } else {
-                                System.out.println(resultInt);
+                                DecimalFormat decimalFormat=new DecimalFormat("#.#");
+                                System.out.println(decimalFormat.format(resultInt));
                             }   
                         }
                     }
